@@ -1,4 +1,2 @@
-# Programacion-Basica-302-I
-## Jazmin Valeria Renteria Lopez
-## 16/Julio/2008
-## Portaflio de Codigos de c++
+
+<img width="906" height="691" alt="image" src="https://github.com/user-attachments/assets/33bd076a-92c8-4c4e-a4a4-0c00b1b822c2" />
