@@ -13,3 +13,6 @@ int main()
   return 0;
 }
 ```
+
+Bienvenido a programacion Basica en C+
+Gracias por programar en clase
