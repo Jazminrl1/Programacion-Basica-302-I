@@ -15,6 +15,6 @@ int main()
   return 0;
 }
 ```
-Prueba de Escritorio
+## Prueba de Escritorio
 Bienvenido a programacion Basica en C+
 Gracias por programar en clase
