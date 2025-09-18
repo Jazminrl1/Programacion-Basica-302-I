@@ -1,0 +1,198 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOGeojOsmGQwkZ3ySP4v3iT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jazminrl1/Programacion-Basica-302-I/blob/main/ActLab%20302/Act/Lab1/Reporte%201%20Jvrl\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Actividad de Laboratorio 1 Impresion de Mensajes"
+      ],
+      "metadata": {
+        "id": "t0W2neX1xpRs"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PB302_1.cpp Programa para Bievenida"
+      ],
+      "metadata": {
+        "id": "ikHV3cgWmzrX"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_ZySnZZolrIh",
+        "outputId": "983105df-996d-4dca-e8a0-63d3a6851cb0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Overwriting PB302_1.cpp\n"
+          ]
+        }
+      ],
+      "source": [
+        "%%writefile PB302_1.cpp\n",
+        "//Programa para imprimir mensaje de bienvenida\n",
+        "//Creado por Jazmin Valeria Renteria Lopez\n",
+        "//Fecha: 15/Septiembre/2025\n",
+        "//PB302_1.cpp\n",
+        "#include <iostream>\n",
+        "using namespace std;\n",
+        "int main()\n",
+        "{\n",
+        "  cout<<\"Bienvenido a programacion Basica en C+\\n\";\n",
+        "  cout<<\"Gracias por programar en clase\";\n",
+        "  return 0;\n",
+        "}"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!g++ PB302_1.cpp -o PB302_1\n",
+        "!./PB302_1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HLIRxOdip56F",
+        "outputId": "a3b2cf69-1cde-41d8-93e5-2de7f619025b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bienvenido a programacion Basica en C+\n",
+            "Gracias por programar en clase"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PB302_1.cpp Programa para imprimirdatos personales"
+      ],
+      "metadata": {
+        "id": "s5r4InaXrK0f"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%%writefile PB302_2.cpp\n",
+        "//Programa para Mostrar datos personales\n",
+        "//creado por jazmin valeria renteria lopez\n",
+        "//fecha:18/septiembre/2025\n",
+        "//PB302_1.cpp\n",
+        "#include <iostream>\n",
+        "using namespace std;\n",
+        "int main()\n",
+        "{\n",
+        "  char nombre[10]=\"Jazmin\";\n",
+        "  char paterno[10]=\"Renteria\";\n",
+        "  char materno[10]=\"Lopez\";\n",
+        "  int edad=17;\n",
+        "  char direccion[40]=\"calle cadereyta\";\n",
+        "  char fechanac[11]=\"16/7/2008\";\n",
+        "  char ciudadnac[10]=\"Sonora\";\n",
+        "  cout<<\"Tu nombre completo es:\\n\";\n",
+        "  cout<<nombre<<\"\\n\";\n",
+        "  cout<<paterno<<\"\\n\";\n",
+        "  cout<<materno<<\"\\n\";\n",
+        "  cout<<edad<<\"\\n\";\n",
+        "  cout<<direccion<<\"\\n\";\n",
+        "  cout<<fechanac<<\"\\n\";\n",
+        "  cout<<ciudadnac<<\"\\n\" ;\n",
+        "\n",
+        "  return 0;\n",
+        "\n",
+        "}\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z5wBvMicrckO",
+        "outputId": "9aab3fa6-79fc-44d5-cf67-718564e5069f"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Overwriting PB302_2.cpp\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!g++ PB302_2.cpp -o PB302_2.exe\n",
+        "!./PB302_2.exe\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HljtS5IIwxwF",
+        "outputId": "c2e9d491-00df-4521-f4e1-72fdca1e5169"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tu nombre completo es:\n",
+            "Jazmin\n",
+            "Renteria\n",
+            "Lopez\n",
+            "17\n",
+            "calle cadereyta\n",
+            "16/7/2008\n",
+            "Sonora\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
